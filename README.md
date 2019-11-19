@@ -25,6 +25,14 @@ ooidlamoverlay.m - plots best fit cortical layer boundaries over original image
 
 plotooidhist.m - plots a stair-step plot of best-fit growth and abrasion steps
 
+Example of growth-abrasion history simulation:
+
+BB4cm_ROI13loop.m - code that uses the following two files to simulate growth-abrasion histories, then identify and plot the best-fit
+
+BB4cm_ROI13data.mat - dataset with coordinates of cortical layer boundaries
+
+BB4cm_ROI13.tif - corresponding thin section image
+
 These codes require two other tools to run:
 
 polygeom.m by H. J. Sommer, available on the Matlab File Exchange: https://www.mathworks.com/matlabcentral/fileexchange/319-polygeom-m
